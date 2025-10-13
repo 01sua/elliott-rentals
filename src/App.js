@@ -59,7 +59,7 @@ function Home() {
       {/* Hero Section */}
       <div
         className="relative h-screen w-full bg-cover bg-center"
-        style={{ backgroundImage: `url(${ups})` }}
+        // style={{ backgroundImage: `url(${ups})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <header className="absolute top-0 left-0 w-full z-10 px-8 py-6 flex justify-between items-center text-white">
