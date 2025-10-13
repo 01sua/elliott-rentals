@@ -5,6 +5,8 @@ import ups from './assets/ups.jpg';
 import _1706 from './assets/1706.png';
 import _2909 from './assets/2909.png';
 import _3305 from './assets/3305.png';
+import _2905 from './assets/2905_1.png';
+import _3311 from './assets/3311.png';
 import './index.css';
 import PropertyDetails from './pages/PropertyDetails.js';
 
@@ -13,23 +15,42 @@ const properties = [
     id: "1706",
     image: _1706,
     address: '1706 N Alder St',
-    details: '2 Bed, 1 Bath',
-    price: '$1,200/month',
+    details: '5 Bed, 2.5 Bath, bonus/office',
+    price: '$3,600/month',
   },
   {
     id: "2909",
     image: _2909,
     address: '2909 N 22th St',
-    details: '3 Bed, 2 Bath',
-    price: '$1,500/month',
+    details: '6 Bed, 3 Bath',
+    price: '$3,900/month',
   },
   {
-    id: "3305",
+    id: "3305A",
     image: _3305,
-    address: '3305 N 7th St',
-    details: '1 Bed, 1 Bath',
-    price: '$900/month',
+    address: '3305 N 7th St. #A',
+    details: '5 Bed, 2.5 Bath',
+    price: '$3500/month',
   },
+  // { id: "3305B",
+  //   image: _3305,
+  //   address: '3305 N 7th St #B',
+  //   details: '2 Bed, 1 Bath',
+  //   price: '$1600/month',
+  // },
+  { id: "3311",
+    image: _3311,
+    address: '3311 N 7th St',
+    details: '4/5 bedrooms, 2 full bathrooms plus 2 half bathrooms',
+    price: '$4 people - $2800/month 5 people - $3100/month',
+  },
+  { id: "2905",
+    image: _2905,
+    address: '2905 N 22th St',
+    details: '6 Bed, 3.5 Bath, bonus/office',
+    price: '$3990/month',
+  },
+
 ];
 
 function Home() {
@@ -43,17 +64,17 @@ function Home() {
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <header className="absolute top-0 left-0 w-full z-10 px-8 py-6 flex justify-between items-center text-white">
           <h1 className="text-2xl font-bold">Elliott Rentals</h1>
-          <nav className="space-x-8">
+          {/* <nav className="space-x-8">
             <a href="#properties" className="hover:text-yellow-300 transition">Properties</a>
             <a href="#application" className="hover:text-yellow-300 transition">Application</a>
             <a href="#contact" className="hover:text-yellow-300 transition">Contact</a>
-          </nav>
+          </nav> */}
         </header>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">Welcome to Elliott UPS Rentals</h2>
           <div className="space-x-4">
             <a href="#properties" className="bg-white text-black px-6 py-3 rounded-lg hover:bg-yellow-300 transition font-semibold">View Properties</a>
-            <a href="#application" className="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition font-semibold">Apply Now</a>
+            {/* <a href="#application" className="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-black transition font-semibold">Apply Now</a> */}
           </div>
         </div>
       </div>
