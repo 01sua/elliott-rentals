@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import PropertyCard from './components/PropertyCard';
-import ups from './assets/ups.jpg';
+// import ups from './assets/ups.jpg';
 import _1706 from './assets/1706.png';
 import _2909 from './assets/2909.png';
 import _3305 from './assets/3305.png';
